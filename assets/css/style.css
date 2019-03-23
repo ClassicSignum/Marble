@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li,img{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,li{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Germania One', cursive;*/
+
+}
+
+/* common css ends*/
+
+
+/*menu part starts*/
+.header-part{
+	background: #e9e9e9;
+}
+
+.header-part .navbar-nav .nav-item .active-color,
+.header-part .navbar-nav .nav-item a:hover{
+	color: #1abb9c;
+	font-weight: bold;
+}
+.header-part .navbar .navbar-brand{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 80px;
+
+}
+.header-part .banner-part{
+	background: url(../images/banner.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.header-part .banner-part .banner-items h5{
+	padding-top: 200px;
+	color: #f3f3f3;
+	font-size: 40px;
+	font-weight: 400;
+}
+.header-part .banner-part .banner-items h4{
+	color: #a8a8a8;
+	font-size: 32px;
+	padding-top: 45px;
+	font-weight: 400;
+}
+.header-part .banner-part .banner-items .see-button a:hover{
+	border-bottom: 2px solid #3678a3;
+}
+.header-part .banner-part .banner-items .see-button a{
+	font-size: 14px;
+	color: #fff;
+	padding: 17px 26px;
+	background: #3f8dbf;
+	border-radius: 5px;
+}
+.header-part .banner-part .banner-items .see-button{
+	margin-top: 45px;
+	padding-bottom: 198px;
+}
+.header-part{
+	
+}
+.header-part{
+
+}
+/*menu part ends*/
+
+
+/*service part starts*/
+.service-part .service-items h2{
+	font-size: 18px;
+	color: #4e4e4e;
+	padding-top: 30px;
+}
+.service-part .service-items p{
+	font-size: 14px;
+	color: #616161;
+	padding-top: 16px;
+	padding-bottom: 62px;
+}
+.service-part .service-items img{
+	padding-top: 60px;
+}
+.service-part .container{
+	border-bottom: 1px solid #dcdcdc;
+}
+.service-part{
+	background: #f7f7f7;
+}
+.service-part{
+	
+}
+/*service part ends*/
+
+/*work part starts*/
+
+.work-part{
+	background: #f7f7f7;
+}
+.work-part .container h3{
+	font-size: 18px;
+	color: #4e4e4e;
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+.work-part .work-items img{
+	padding-bottom: 24px;
+}
+.work-part .work-items h4{
+	font-size: 18px;
+	color: #4e4e4e;
+	padding-bottom: 15px;
+}
+
+.work-part .work-items h6{
+	font-size: 13px;
+	color: #a8a8a8;
+	padding-bottom: 24px;
+}
+.work-part .work-items p{
+	font-size: 14px;
+	color: #5c5c5c;
+	padding-bottom: 58px;
+}
+
+/*work part ends*/
+
+/*testimonial part starts*/
+.testm-part{
+	background: #efefef;
+}
+.testm-part h5{
+	font-size: 20px;
+	color: #a1a1a1;
+	padding: 35px 120px 65px;
+	font-weight: 300;
+}
+.testm-part .testm-icon{
+	padding-top: 54px;
+}
+.testm-part .testm-icon a{
+	color: #dcdcdc;
+	font-size: 100px;
+}
+.testm-part{
+	
+}
+/*testimonial part ends*/
+
+/*footer part stars*/
+
+.footer-part .fp-1{
+	background: #1c1c1c;
+}
+.footer-part .fp-1 h5{
+	padding-top: 50px;
+	font-size: 18px;
+	color: #6c6c6c;
+}
+.footer-part .fp-1 .footer-items .text-area p{
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer-part .fp-1 .footer-items .text-area{
+	
+	padding: 26px 0px;
+
+}
+.footer-part .fp-1 .footer-items .row .col-md-2 a{
+	color: #a89574;
+}
+.footer-part .fp-1 .footer-items .row .col-md-10 p{
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer-part .fp-1 .footer-items .secound-col{
+	padding-top: 26px;
+}
+.footer-part .fp-1 .footer-items .row{
+	padding-bottom: 10px;
+}
+.footer-part .fp-1 .footer-items .col-md-12 p{
+		font-size: 14px;
+	color: #cacaca;
+}
+.footer-part .fp-1 .footer-items .last-text{
+	padding-bottom: 100px;
+}
+.footer-part .fp-1 .footer-items .last-text p{
+	padding-bottom: 10px;
+}
+.footer-part .fp-2{
+	background: #1c1c1c;
+
+}
+.footer-part .fp-2 .copy-right{
+	border-top: 2px solid #383838;
+}
+.footer-part .fp-2 .copy-right p{
+
+	font-size: 14px;
+	color: #cacaca;
+	line-height: 65px;
+}
+/*footer part ends*/
+
+/*responsive part */
+
+@media(max-width: 768px){
+	.testm-part .testm-icon a{
+		color: #dcdcdc;
+		font-size: 40px;
+	}
+	.testm-part h5{
+	font-size: 20px;
+	color: #a1a1a1;
+	font-weight: 300;
+	padding: 0;
+	}
+	.footer-part .fp-2 .copy-right p{
+
+	font-size: 12px;
+	color: #cacaca;
+	line-height: 50px;
+}
+
+}
